@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="400" viewBox="0 0 820 400">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; }
+    .art { fill: #4FD1C5; font-size: 13px; }
+    .k { fill: #4FD1C5; font-weight: 700; }
+    .v { fill: #E6EDF3; }
+    .dim { fill: #7D8590; }
+    .user { fill: #F6C177; font-weight: 700; }
+    .line { animation: in .4s ease both; }
+    @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2027"/>
+      <stop offset="0.5" stop-color="#16303A"/>
+      <stop offset="1" stop-color="#1B3A47"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="818" height="398" rx="14" fill="url(#bg)" stroke="#2C5364" stroke-width="1.5"/>
+  <rect x="1" y="1" width="818" height="34" rx="14" fill="#0B181D"/>
+  <rect x="1" y="20" width="818" height="15" fill="#0B181D"/>
+  <circle cx="24" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="44" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="64" cy="18" r="6" fill="#28C840"/>
+  <text x="410" y="23" text-anchor="middle" class="dim" style="font-size:12px">shada@riyadh: ~ — fastfetch</text>
+
+  <!-- prompt -->
+  <text x="24" y="62"><tspan class="user">shada@riyadh</tspan><tspan class="dim">:</tspan><tspan class="k">~</tspan><tspan class="v">$ fastfetch</tspan></text>
+
+  <!-- ascii art: a cloud over a cluster -->
+  <g class="art">
+    <text x="24" y="102" xml:space="preserve">          .-~~~-.</text>
+    <text x="24" y="118" xml:space="preserve">  .- ~ ~-(       )_ _</text>
+    <text x="24" y="134" xml:space="preserve"> /                    ~ -.</text>
+    <text x="24" y="150" xml:space="preserve">|      a z u r e          \</text>
+    <text x="24" y="166" xml:space="preserve"> \                       .'</text>
+    <text x="24" y="182" xml:space="preserve">   ~- . _____________ . -~</text>
+    <text x="24" y="198" xml:space="preserve">           |   |   |</text>
+    <text x="24" y="214" xml:space="preserve">        [pod][pod][pod]</text>
+    <text x="24" y="230" xml:space="preserve">         \____ AKS ____/</text>
+    <text x="24" y="262" xml:space="preserve" class="dim">    terraform apply ✓</text>
+    <text x="24" y="278" xml:space="preserve" class="dim">    kubectl get pods ✓</text>
+    <text x="24" y="294" xml:space="preserve" class="dim">    git push → deployed ✓</text>
+  </g>
+
+  <!-- info -->
+  <g>
+    <text x="300" y="98" class="line" style="animation-delay:.1s"><tspan class="user">shada</tspan><tspan class="dim">@</tspan><tspan class="user">haddad</tspan></text>
+    <text x="300" y="114" class="line dim" style="animation-delay:.2s">────────────────────────────────────────────────</text>
+    <text x="300" y="136" class="line" style="animation-delay:.3s"><tspan class="k">Role      </tspan><tspan x="390" class="v">DevOps Engineer · Full-Stack Developer</tspan></text>
+    <text x="300" y="158" class="line" style="animation-delay:.4s"><tspan class="k">Host      </tspan><tspan x="390" class="v">Riyadh, Saudi Arabia</tspan></text>
+    <text x="300" y="180" class="line" style="animation-delay:.5s"><tspan class="k">Kernel    </tspan><tspan x="390" class="v">B.Sc. Computer Science · GPA 4.44/5</tspan></text>
+    <text x="300" y="202" class="line" style="animation-delay:.6s"><tspan class="k">Modules   </tspan><tspan x="390" class="v">SDA DevOps &amp; Cloud · AI Engineering</tspan></text>
+    <text x="300" y="224" class="line" style="animation-delay:.7s"><tspan class="k">Cloud     </tspan><tspan x="390" class="v">Azure (AKS, Container Apps, App Gateway)</tspan></text>
+    <text x="300" y="246" class="line" style="animation-delay:.8s"><tspan class="k">Packages  </tspan><tspan x="390" class="v">Terraform, Docker, Kubernetes, GH Actions</tspan></text>
+    <text x="300" y="268" class="line" style="animation-delay:.9s"><tspan class="k">Shell     </tspan><tspan x="390" class="v">Python, JavaScript, Java, Dart, SQL</tspan></text>
+    <text x="300" y="290" class="line" style="animation-delay:1.0s"><tspan class="k">AI        </tspan><tspan x="390" class="v">LangChain, RAGAS, OpenAI API, Hugging Face</tspan></text>
+    <text x="300" y="312" class="line" style="animation-delay:1.1s"><tspan class="k">Projects  </tspan><tspan x="390" class="v">MEYAR · Azure 3-Tier · Gray Matter</tspan></text>
+    <text x="300" y="334" class="line" style="animation-delay:1.2s"><tspan class="k">Locale    </tspan><tspan x="390" class="v">Arabic (native) · English</tspan></text>
+
+    <!-- color blocks -->
+    <g class="line" style="animation-delay:1.3s">
+      <rect x="300" y="350" width="26" height="14" fill="#0F2027"/>
+      <rect x="326" y="350" width="26" height="14" fill="#FF5F57"/>
+      <rect x="352" y="350" width="26" height="14" fill="#28C840"/>
+      <rect x="378" y="350" width="26" height="14" fill="#FEBC2E"/>
+      <rect x="404" y="350" width="26" height="14" fill="#2C5364"/>
+      <rect x="430" y="350" width="26" height="14" fill="#C4A7E7"/>
+      <rect x="456" y="350" width="26" height="14" fill="#4FD1C5"/>
+      <rect x="482" y="350" width="26" height="14" fill="#E6EDF3"/>
+    </g>
+  </g>
+
+  <!-- trailing prompt -->
+  <text x="24" y="382"><tspan class="user">shada@riyadh</tspan><tspan class="dim">:</tspan><tspan class="k">~</tspan><tspan class="v">$ </tspan><tspan class="v cursor">█</tspan></text>
+</svg>

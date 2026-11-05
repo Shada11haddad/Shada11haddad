@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/card.svg" width="820" alt="fastfetch-style card: my role, stack, projects and languages"/>
+  <img src="card.svg" width="820" alt="fastfetch-style card: my role, stack, projects and languages"/>
 </p>
 
 <table align="center">
