@@ -8,6 +8,10 @@
   <img src="card.svg" width="820" alt="fastfetch-style card: my role, stack, projects and languages"/>
 </p>
 
+<p align="center">
+  <img src="byte.svg" width="820" alt="Byte, my pixel cat, in a sunny garden guarding the cloud"/>
+</p>
+
 <table align="center">
 <tr>
 <td width="50%" valign="top">
