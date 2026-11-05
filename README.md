@@ -1,15 +1,17 @@
-<h1 align="center">Hi, I'm Shada 👋<br/><sub><sup><code>shada@riyadh</code> · Saudi Arabia</sup></sub></h1>
+<p align="center">
+  <img src="asset/header.svg" width="820" alt="Shada Haddad · DevOps Engineer · Full-Stack Developer · Riyadh, Saudi Arabia"/>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=4FD1C5&center=true&vCenter=true&width=600&lines=Backend+%E2%86%92+Containers+%E2%86%92+Cloud;Terraform+%2B+Kubernetes+%2B+CI%2FCD;Where+cloud+infrastructure+meets+AI" alt="Backend → Containers → Cloud"/>
 </p>
 
 <p align="center">
-  <img src="card.svg" width="820" alt="fastfetch-style card: my role, stack, projects and languages"/>
+  <img src="asset/card.svg" width="820" alt="fastfetch-style card: my role, stack, projects and languages"/>
 </p>
 
 <p align="center">
-  <img src="byte.svg" width="820" alt="Byte, my pixel cat, in a sunny garden guarding the cloud"/>
+  <img src="asset/byte.svg" width="820" alt="Byte, my pixel cat, in a sunny garden guarding the cloud"/>
 </p>
 
 <table align="center">
